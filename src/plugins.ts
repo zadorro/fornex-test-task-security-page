@@ -1,6 +1,5 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
-import "./assets/bs_custom.scss";
 import "./assets/styles/app.sass";
 
 import { VueClass } from "vue-class-component/lib/declarations";
