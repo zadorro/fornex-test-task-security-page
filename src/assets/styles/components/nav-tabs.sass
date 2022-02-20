@@ -1,0 +1,28 @@
+.header-tabs
+
+  .nav-item
+    margin: 0 .75rem
+
+    &:first-child
+      margin-left: 0
+    &:last-child
+      margin-right: 0
+
+    .nav-link
+      padding: 1.5rem 0
+      margin: 0
+
+      &:focus, &:hover
+        border-color: transparent
+        isolation: isolate
+
+      &:not(.router-link-exact-active):hover
+        color: #6e84a3
+
+      &:not(.router-link-exact-active)
+        color: var(--c-gray)
+
+      &.router-link-exact-active
+        background-color: transparent
+        border-color: transparent transparent #2c7be5
+        color: #12263f
